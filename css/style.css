@@ -1,0 +1,89 @@
+.body1{
+ 
+ background: #1a8773 ;
+
+}
+.head{
+
+padding: 0px;
+background:background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(218,217,217,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(218,217,217,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(218,217,217,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(218,217,217,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(218,217,217,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(218,217,217,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='black', endColorstr='#ffffff',GradientType=4 ); /* IE6-9 */
+height:auto; 
+
+}
+ .carousel
+{
+       width : 100%;        
+}
+.carousel-inner > .item > img,
+ .carousel-inner > .item > a > img {
+     width: 100%;
+     margin: auto;
+         max-height : 400px;
+ }
+.item{   
+   text-align: center;
+   max-height: 300px !important;
+}
+.products{
+background-color:#04890e;
+
+    height:300px;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+}
+.productimg{
+background-color:#04890e;
+
+}
+.container{
+text-align:justify;
+}
+.footer{
+background:white;
+
+}
+ .social h4{
+	margin-top:20px;
+}
+ .social a{
+	
+	margin-top:0;
+	margin: 0 1px 5px 0;
+	float:left;
+}
+
+.social a.soc1{
+	background:url(soc1.png) center center no-repeat;
+}
+
+ .social a.soc2{
+	background:url(soc2.png) center center no-repeat;
+}
+ .social a.soc3{
+	background:url(soc3.png) center center no-repeat;
+}
+ .social a.soc4{
+	background:url(soc4.png) center center no-repeat;
+}
+
+
+ .social a.soc1:hover{
+	background:url(/soc1_hover.png) center center no-repeat;
+}
+
+  .social a.soc2:hover{
+	background:url(/soc2_hover.png) center center no-repeat;
+}
+.cols .social a.soc3:hover{
+	background:url(images/soc3_hover.png) center center no-repeat;
+}
+.cols .social a.soc4:hover{
+	background:url(images/soc4_hover.png) center center no-repeat;
+}
